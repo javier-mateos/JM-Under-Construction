@@ -23,7 +23,7 @@ p {
 }
 
 header {
-    margin: 5vh 10%;
+    margin: 5vh 15%;
 }
 
 img {
@@ -34,7 +34,7 @@ img {
 
 .main-tittle {
     font-size: 3.5rem;
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 
 .main-description {
@@ -76,7 +76,7 @@ img {
 
 .contact-info {
     font-size: 1.2rem;
-    margin-top: 25vh;
+    margin-top: 16vh;
 }
 
 .contact-info i{
@@ -90,3 +90,25 @@ img {
     margin-top: 0.6rem;
     
 }
+
+@media (max-width: 768px) {
+    header {
+        margin: 5vh 0;
+        text-align: center;
+    }
+
+    .main-tittle {
+        font-size: 1.8rem;
+        margin-top: 6vh;
+        text-align: center;
+    }
+
+    .main-description {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .contact-info {
+        margin-top: 10vh;
+    }
+  }
